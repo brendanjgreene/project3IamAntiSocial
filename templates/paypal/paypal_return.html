@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Thanks for buying {{ post.item_name }} :)</h1>
+
+    <h2>Your Payment has been processed {{ post.mc_currency }}{{ post.payment_gross }}</h2>
+    <h3>Notification of shipment will be sent to your email {{ post.payer_email }}</h3>
+
+{% endblock %}

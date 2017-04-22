@@ -1,0 +1,62 @@
+[
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$2OdZgOJSFeN8$XJ0ofM+LyH8QeaNCdmuwEsr95Zi5Y4jAJr2Ox/gA3hA=",
+        "last_login": "2017-04-05T10:41:00.472Z",
+        "is_superuser": true,
+        "username": "brendanjgreene@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "brendanjgreene@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-04-03T00:21:08.347Z",
+        "stripe_id": "",
+        "subscription_end": "2017-04-03T02:15:11.338Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$5cmSvlw3lXdZ$awIYy+83vCNCwbK6WTLDlkWCJ6KErmhKQ0XOj2dS1mI=",
+        "last_login": "2017-04-03T02:32:29.057Z",
+        "is_superuser": false,
+        "username": "grace@grace.ie",
+        "first_name": "",
+        "last_name": "",
+        "email": "grace@grace.ie",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-04-03T01:45:01.932Z",
+        "stripe_id": "tok_1A4KEoGnccBnhKiGS0MA0mF5",
+        "subscription_end": "2017-04-03T02:15:11.338Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$5xG6D4L75Wy5$NELMoBan32QxZTzOj5+iGlizHsVruJOy2Hww1IIKdYs=",
+        "last_login": "2017-04-03T02:16:19.548Z",
+        "is_superuser": false,
+        "username": "tess@tess.ie",
+        "first_name": "",
+        "last_name": "",
+        "email": "tess@tess.ie",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-04-03T02:16:16.805Z",
+        "stripe_id": "cus_AP91UsfRUB1Hgc",
+        "subscription_end": "2017-05-01T02:16:19.475Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

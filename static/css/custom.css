@@ -1,0 +1,33 @@
+body{
+    padding-top: 100px;
+}
+#my-background-image {
+    background-image: url("../images/6-23-Spirit.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+.list-inline .fa {
+    color: #222222;
+}
+
+#map {
+    height: 450px;
+    width: 100%;
+}
+.navbar-header p a {
+    color: #c87f0a;
+    font-size: x-large;
+    align-self: center;
+}
+
+.navbar-header p a:hover {
+    color: inherit;
+}
+#back-button {
+    background-color: #c87f0a;
+}
+.container {
+    padding: 30px;
+}
