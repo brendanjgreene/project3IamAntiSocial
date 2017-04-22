@@ -56,11 +56,12 @@
                 </div>
             {% endif %}
         </div>
-        <p class="col-sm-9">
-            {% if user.is_authenticated %}
-                <a href="{% url 'new_post' thread.id %}" class="btn btn-primary">New post</a>
-            {% endif %}
-            </p>
+            <div class="btn-group col-md-9">
+                {% if user.is_authenticated %}
+                    <a href="{% url 'new_post' thread.id %}" class="btn btn-primary">New post</a>
+                {% endif %}
+                <a href="/forum/" class="btn btn-warning">Back to Forum</a>
+            </div>
             {% for post in thread.posts.all %}
                 {% include "forum/post.html" %}
             {% endfor %}
