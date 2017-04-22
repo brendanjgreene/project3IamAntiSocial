@@ -31,6 +31,8 @@ Use the knowledge learned from the Deployment lesson to deploy your project and 
 
 https://i-am-anti-social.herokuapp.com
 
+# Just for me to remember
+
 to update json run on command line:
 
 - python manage.py dumpdata --natural-foreign -e contenttypes -e auth.Permission --indent=4 > db.json --settings=settings.dev
