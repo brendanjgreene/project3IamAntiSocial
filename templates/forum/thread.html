@@ -38,17 +38,18 @@
                         <p>Here's how the votes are so far</p>
 
                         {% for subject in thread.poll.subjects.all %}
-                        {% user_vote_button thread subject user %}
                             <div class="col-md-9">
                                 <strong>{{ subject.name }}</strong>
                                 <span class="pull-right">{{ subject|vote_percentage }}%</span>
                             </div>
+                            {% user_vote_button thread subject user %}
                             <div class="col-md-9">
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-info" role="progressbar" aria-value="{{ subject|vote_percentage }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ subject|vote_percentage }}%;">
                                     </div>
                                 </div>
                             </div>
+
 
                         {% endfor %}
                     </div>

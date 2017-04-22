@@ -43,7 +43,7 @@ def user_vote_button(thread, subject, user):
     if not vote:
         if user.is_authenticated():
             link = """
-                <div class="pull-right col-md-3 btn-vote">
+                <div class="col-sm-3 btn-vote pull-right">
                     <a href="%s" class="btn btn-default btn-sm">
                         Add my vote!
                     </a>
@@ -54,6 +54,7 @@ def user_vote_button(thread, subject, user):
             })
             return mark_safe(link)
     return ""
+
 
 
 @register.filter

@@ -1,6 +1,7 @@
 {% load staticfiles %}
 {% load emoticons_tags %}
 <section class="row comment col-md-9">
+    <hr>
  <div class="col-md-3 comment-profile">
      {% if user.png %}
          <p><img src="{% static 'images/user.png' %}" /></p>
@@ -17,5 +18,4 @@
  <div>{% include "forum/comment_details.html" %}</div>
 
  </div>
-
 </section>
