@@ -29,7 +29,7 @@ Use the knowledge learned from the Deployment lesson to deploy your project and 
 
 # Deployed with sarcasm at:
 
-https://i-am-anti-social.herokuapp.com
+https://project3-i-am-anti-social.herokuapp.com/
 
 # Just for me to remember
 
