@@ -11,7 +11,7 @@ DATABASES = {
 }
 
 DATABASES['default'] = dj_database_url.parse(
-    "mysql://b4a117aebd2b81:b322a972@eu-cdbr-west-01.cleardb.com/heroku_952398db74e2481?reconnect=true")
+    "mysql://bce8728ef94639:dec5b67a@eu-cdbr-west-01.cleardb.com/heroku_54ef77cf2eb9b46?reconnect=true")
 
 # Stripe environment variables
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_DN78rrac6Vda1ito3iAlshPc')
