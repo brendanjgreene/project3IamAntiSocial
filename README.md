@@ -39,4 +39,4 @@ to update json run on command line:
 
 then update mySql with command line:
 
-- heroku run python manage.py loaddata db.json --app i-am-anti-social
+- heroku run python manage.py loaddata db.json --app project3-i-am-anti-social
