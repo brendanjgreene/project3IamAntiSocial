@@ -31,6 +31,9 @@ Use the knowledge learned from the Deployment lesson to deploy your project and 
 
 https://project3-i-am-anti-social.herokuapp.com/
 
+I kind of flipped the original assignment on its head just for fun but I hope that I demonstrating all the proper functionallity etc..
+ 
+
 # Just for me to remember
 
 to update json run on command line:
