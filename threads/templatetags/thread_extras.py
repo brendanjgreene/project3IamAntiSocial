@@ -28,14 +28,6 @@ def last_posted_user_name(thread):
         return ""
 
 
-"""
-@register.simple_tag
-def last_posted_user_name(thread):
-    posts = thread.posts.all().order_by('created_at')
-    return posts.first().user.username
-"""
-
-
 @register.simple_tag
 def user_vote_button(thread, subject, user):
     vote = thread.poll.votes.filter(user_id=user.id).first()
@@ -54,7 +46,6 @@ def user_vote_button(thread, subject, user):
             })
             return mark_safe(link)
     return ""
-
 
 
 @register.filter
