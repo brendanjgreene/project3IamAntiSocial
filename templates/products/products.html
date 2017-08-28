@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load products_extras %}
 {% block content %}
+    <div class="table-responsive">
     <table class="table table-striped">
         <thead>
             <tr>
@@ -21,4 +22,5 @@
             {% endfor %}
         </tbody>
     </table>
+    </div>
 {% endblock %}
